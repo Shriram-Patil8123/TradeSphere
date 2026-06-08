@@ -9,7 +9,7 @@ const params = new URLSearchParams(window.location.search);
 const name = params.get("name");
 
 if (!name) {
-  window.location.href= "http://localhost:3000/login";
+  window.location.href= "/login";
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
